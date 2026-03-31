@@ -43,7 +43,7 @@
     </header>
 
     <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
-
+<section></section>
         <section id="research">
             <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-4 mb-8">Current Research</h2>
             <div class="grid md:grid-cols-2 gap-6">
@@ -58,68 +58,65 @@
                     <p class="text-slate-600 text-sm">Working on advanced Anomaly Detection to secure Additive Manufacturing processes from cyber-physical threats.</p>
                 </div>
             </div>
-        </section>
-        <section id="results" class="py-12 bg-white rounded-2xl shadow-sm border border-slate-100 my-12 px-8">
-    <h2 class="text-3xl font-bold text-slate-900 border-l-8 border-blue-600 pl-4 mb-10">Research Insights & AI Agent Results</h2>
+       <section id="results" class="py-12 bg-white rounded-2xl shadow-sm border border-slate-100 my-12 px-8">
+    <h2 class="text-3xl font-bold text-slate-900 border-l-8 border-blue-600 pl-4 mb-10">Research Insights & AI Agent Progress</h2>
     
     <div class="grid md:grid-cols-2 gap-12 mb-16">
         <div class="space-y-6">
-            <h3 class="text-xl font-bold text-blue-800"><i class="fas fa-microchip mr-2"></i>LLM-Based Decision Support</h3>
+            <h3 class="text-xl font-bold text-blue-800"><i class="fas fa-project-diagram mr-2"></i>Ontology-Driven Decision Support</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-                My Ph.D. research at UMass Dartmouth focuses on creating an <strong>Explainable Defect Diagnosis system</strong>. This agent utilizes Large Language Models (LLMs) to interpret complex manufacturing data[cite: 22].
+                My current research focuses on a <strong>Knowledge-Driven LLM Agent</strong> that utilizes a structured <strong>Full Defect Taxonomy</strong>. By grounding the agent in formal ontology, it can systematically classify defects across Global Structural, Local Structural, Surface, and Material categories.
             </p>
             <ul class="space-y-3 text-sm text-slate-700">
-                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i><strong>Knowledge-Driven:</strong> Integrated semantic Knowledge Graphs for metal AM.</li>
-                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i><strong>Explainable AI:</strong> Provides step-by-step reasoning for defect mitigation.</li>
+                <li class="flex items-start"><i class="fas fa-check text-blue-500 mt-1 mr-2"></i><span><strong>Internal Knowledge Base:</strong> Uses dictionary lookups and fuzzy string matching for precise defect identification.</span></li>
+                <li class="flex items-start"><i class="fas fa-check text-blue-500 mt-1 mr-2"></i><span><strong>External Grounding:</strong> Integrates SerpAPI and Google Scholar to fetch additional resources for defect mitigation.</span></li>
             </ul>
         </div>
 
         <div class="space-y-6">
-            <h3 class="text-xl font-bold text-blue-800"><i class="fas fa-user-shield mr-2"></i>AM Cybersecurity & Anomalies</h3>
+            <h3 class="text-xl font-bold text-blue-800"><i class="fas fa-eye mr-2"></i>Multi-Modal Vision Engine</h3>
             <p class="text-slate-600 text-sm leading-relaxed">
-                Parallel to my thesis, I am developing <strong>Anomaly Detection frameworks</strong> to secure Additive Manufacturing (AM) against cyber-physical threats.
+                A core feature of the agent is its <strong>AI Vision capabilities</strong>. The engine can analyze physical image inputs to identify likely defects and evaluate user hypotheses with visual evidence.
             </p>
             <ul class="space-y-3 text-sm text-slate-700">
-                <li class="flex items-center"><i class="fas fa-shield-alt text-blue-500 mr-2"></i>99%+ Prediction Accuracy in process transition identification.</li>
-                <li class="flex items-center"><i class="fas fa-shield-alt text-blue-500 mr-2"></i>Real-time monitoring of melt pool thermal data for security.</li>
+                <li class="flex items-start"><i class="fas fa-microchip text-blue-500 mt-1 mr-2"></i><span><strong>Automated Inference:</strong> Leverages Gemini 1.5 Vision models to parse image data for defect probabilities.</span></li>
+                <li class="flex items-start"><i class="fas fa-microchip text-blue-500 mt-1 mr-2"></i><span><strong>Hypothesis Testing:</strong> Allows researchers to ask "Do you suspect Balling?" and receive evidence-based confirmation.</span></li>
             </ul>
         </div>
     </div>
 
     <div class="grid md:grid-cols-3 gap-6">
         <div class="group overflow-hidden rounded-xl border border-slate-200">
-            <div class="h-48 bg-slate-100 flex items-center justify-center relative">
-                <img src="ai_agent_logic.png" alt="AI Agent Logic" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <span class="text-xs font-mono text-slate-400">Agent Reasoning Flow</span>
+            <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                <img src="lpbf_agent_logic_flowchart.png" alt="Agent Logic Flowchart" class="absolute inset-0 w-full h-full object-contain p-2 group-hover:scale-105 transition duration-500">
             </div>
-            <div class="p-3 bg-slate-50">
-                <p class="text-xs font-bold text-slate-800">LLM Decision Support</p>
-                <p class="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Defect Diagnosis Logic</p>
-            </div>
-        </div>
-
-        <div class="group overflow-hidden rounded-xl border border-slate-200">
-            <div class="h-48 bg-slate-100 flex items-center justify-center relative">
-                <img src="figure_1.png" alt="Anomaly Results" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <span class="text-xs font-mono text-slate-400">Detection Accuracy Plot</span>
-            </div>
-            <div class="p-3 bg-slate-50">
-                <p class="text-xs font-bold text-slate-800">Cybersecurity Detection</p>
-                <p class="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Anomaly Visualization</p>
+            <div class="p-3 bg-slate-50 border-t border-slate-200">
+                <p class="text-xs font-bold text-slate-800">Agent Logic Flowchart</p>
+                <p class="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Multi-Modal & Text Engines</p>
             </div>
         </div>
 
         <div class="group overflow-hidden rounded-xl border border-slate-200">
-            <div class="h-48 bg-slate-100 flex items-center justify-center relative">
-                <img src="figure_2.png" alt="Knowledge Graph" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500">
-                <span class="text-xs font-mono text-slate-400">KG Structure</span>
+            <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                <img src="figure_2.png" alt="Full Defect Taxonomy" class="absolute inset-0 w-full h-full object-contain p-2 group-hover:scale-105 transition duration-500">
             </div>
-            <div class="p-3 bg-slate-50">
-                <p class="text-xs font-bold text-slate-800">Knowledge Graph</p>
-                <p class="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Semantic Mapping</p>
+            <div class="p-3 bg-slate-50 border-t border-slate-200">
+                <p class="text-xs font-bold text-slate-800">Full Defect Taxonomy</p>
+                <p class="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Ontology-Driven Structure</p>
+            </div>
+        </div>
+
+        <div class="group overflow-hidden rounded-xl border border-slate-200">
+            <div class="h-64 bg-slate-100 flex items-center justify-center relative">
+                <img src="figure_1.png" alt="Balling Defect Analysis" class="absolute inset-0 w-full h-full object-contain p-2 group-hover:scale-105 transition duration-500">
+            </div>
+            <div class="p-3 bg-slate-50 border-t border-slate-200">
+                <p class="text-xs font-bold text-slate-800">Balling Case Study</p>
+                <p class="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Surface Defect Analysis Output</p>
             </div>
         </div>
     </div>
+</section>
 </section>
 <section id="publications">
             <h2 class="text-2xl font-bold text-slate-900 border-l-4 border-blue-600 pl-4 mb-8">Publications & Research</h2>
